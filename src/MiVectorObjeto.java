@@ -14,7 +14,7 @@ public class MiVectorObjeto {
                   "Menu Principal\n"
                  + "1. Crear y Registrar Empleados \n"
                  + "2. Buscar por id\n"
-                 + "3. \n"
+                 + "3. listar Quicksort\n"
                  + "4. ordenamiento Seleccion\n"
                  + "5. Ordenamiento Shell\n"
                  + "6. Exit" ));
@@ -31,7 +31,7 @@ public class MiVectorObjeto {
                  break;
 
             case 3:
-               
+                  miobj.listarQuicksort();
                  break;
                  
             case 4:

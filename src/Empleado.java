@@ -6,8 +6,8 @@ public class Empleado {
   public float SALARIO;
   public int ESTRATO;
   public int HE; //hora extras laboradas
-  public String FE; //fecha de vinculacion
-  
+  public int FE; //fecha de vinculacion
+  public float neto;
   //constructor
   public Empleado(){
    
@@ -16,8 +16,17 @@ public class Empleado {
     SALARIO = 0;
     ESTRATO = 0;
     HE = 0;
-    FE = "";
+    FE = 0;
+    neto=0;
 }
+
+   public float getNeto() {
+      return neto;
+   }
+
+   public void setNeto(float neto) {
+      this.neto = neto;
+   }
 
 
    public String getIDEMPLEADO() {
@@ -60,11 +69,11 @@ public class Empleado {
       this.HE = HE;
    }
 
-   public String getFE() {
+   public int getFE() {
       return FE;
    }
 
-   public void setFE(String FE) {
+   public void setFE(int FE) {
       this.FE = FE;
    }  
    
